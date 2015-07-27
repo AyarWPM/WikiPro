@@ -1,0 +1,13 @@
+Este es un programa que permite el cálculo de las ramificaciones de la tabla de deducciones de la lógica de Lupasco.
+
+Las entradas ("inputs") son siempre pares de elementos.
+
+Las salidas ("outputs") deben especificar si los elementos son o no contradictorios, y tambien deben especificar por lo menos una conjunción contradiccional en la cual se encuentran.
+
+El programa esta intrínsicamente asociado a lo que sucede en un Juego de WikiProcidad, ejemplo:
+
+- En una partida sobre el tema del desarrollo económico (nivel 0), las hipótesis contradictorias son:
+	h1: el desarrollo depende de las mentalidades.
+	h2: el desarrollo depende de las condiciones materiales.
+- Al final del juego se determina que en el nivel 0 los elementos h1 y h2 están en el estado T (porque ambas hipótesis son actuales).
+- Por lo tanto el programa debe crear un nivel 1 donde los elementos son las tres implicaciones de segundo nivel de h1 y h2 en sus estados T.
